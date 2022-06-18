@@ -32,15 +32,13 @@ h1,h2,h3,h4,p,ul{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: 2px solid  tomato; */
-    /* background-color: tomato; */
+   
 }
  .page-header{
     border-bottom: 1px solid #ECECEC;
  }
 .main-nav{
     display: flex;
-    /* margin-bottom: 50px; */
     align-items: center;   
 }
  .pnav{
