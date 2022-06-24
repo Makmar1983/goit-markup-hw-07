@@ -51,6 +51,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    padding-left: 0;
 }
 
 .team__command-li {
@@ -76,10 +77,10 @@
 
     transition: background-color 250ms $timing,
         fill 250ms $timing;
+        &:hover,
+        &:focus {
+            background-color: $accent-color;
+            fill: #FFFFFF;
+        }
 }
 
-.team__button-svg:hover,
-.team__button-svg:focus {
-    background-color: $accent-color;
-    fill: #FFFFFF;
-}

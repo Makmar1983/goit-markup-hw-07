@@ -14,14 +14,15 @@
     text-align: center;
 
     transition: background-color 250ms $timing, color 250ms $timing;
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+        color: $primary-white-color;
+        border: none;
+    }
 }
 
-.hero__button:hover,
-.hero__button:focus {
-    background-color: $accent-color;
-    color: $primary-white-color;
-    border: none;
-}
+
 
 .hero__button.hero__primary {
     color:$primary-white-color;
